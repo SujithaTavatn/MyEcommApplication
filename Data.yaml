@@ -1,0 +1,52 @@
+#Collecting learners Information
+
+learner1:
+  name: Sujitha
+  occupation: Employee
+  organization_name: "CTS Hyderabad"
+  age: 31
+  enrolledCourse:
+    - azure
+    - azure devops
+    - Java
+    - python
+  is_course_completed: false
+
+  learner2:
+    name: Tanvi
+    occupation: student
+    school_name: "BHM School"
+    age: 10
+    subject:
+      - English
+      - Maths
+      - Science
+---
+#Collecting Trainers Information
+learner1:
+  name: Sujitha
+  occupation: Employee
+  organization_name: "CTS Hyderabad"
+  age: 31
+  enrolledCourse:
+    - azure
+    - azure devops
+    - Java
+    - python
+  is_course_completed: false
+---
+#working with strings
+#folded block string
+job_description: >
+  required cloud devops engineer with 3 years of experience.
+  he/she should have experience in k8s, docker, terraform.
+  should be familer with cloud platforms like AWS, Azure, GCP
+#Output of the folded block will be in single line
+
+# literal block string
+job_description1: |
+  required cloud devops engineer with 3 years of experience.
+  he/she should have experience in k8s, docker, terraform.
+  should be familer with cloud platforms like AWS, Azure, GCP
+#Output of the literal block will be in same like input in three lines
+
